@@ -1,22 +1,22 @@
 class Monkeys < Formula
-  desc "Cross-platform dotenv alternative for the LLM era: secrets in the keyring, spent one command at a time"
+  desc "Cross-platform .env alternative for the LLM era"
   homepage "https://github.com/eastriverlee/monkeys"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-macos-universal.tar.gz"
-    sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
+    url "https://github.com/eastriverlee/monkeys/releases/download/v1.4.0/monkeys-macos-universal.tar.gz"
+    sha256 "6dab54f7c44c6812b92c1bae9783cce264faf6973c351020fcd2ee74ad05d388"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-arm64.tar.gz"
-      sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.4.0/monkeys-linux-arm64.tar.gz"
+      sha256 "5e814c413b26d0c2365c10eb00536df14346a81654575218ef25564379f4b057"
     end
     on_intel do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-x86_64.tar.gz"
-      sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.4.0/monkeys-linux-x86_64.tar.gz"
+      sha256 "b3cca0c414306992eca08e21b72410992e81c70152cf8cef5e6c172df68dd10a"
     end
   end
 
@@ -28,7 +28,7 @@ class Monkeys < Formula
     return unless OS.linux?
 
     <<~TEXT
-      On Linux, monkeys reaches the keyring through secret-tool:
+      On Linux, monkeys reaches the vault through secret-tool:
         libsecret-tools on Debian and Ubuntu, libsecret on Fedora and Arch.
     TEXT
   end
