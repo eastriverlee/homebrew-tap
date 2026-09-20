@@ -1,22 +1,22 @@
 class Monkeys < Formula
   desc "Cross-platform .env alternative for the LLM era"
   homepage "https://github.com/eastriverlee/monkeys"
-  version "1.0.1"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/eastriverlee/monkeys/releases/download/v1.0.1/monkeys-macos-universal.tar.gz"
-    sha256 "210e952513fb9943dd4ad3dcae9167ba8e49ac05c0119e723c5e0010a47d16cb"
+    url "https://github.com/eastriverlee/monkeys/releases/download/v1.1.0/monkeys-macos-universal.tar.gz"
+    sha256 "ad27a24517c72ead9d08d91dcdcb087527635acb0354d79ba9955a7723a507bc"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.0.1/monkeys-linux-arm64.tar.gz"
-      sha256 "04de265e6994b364ae61e4b2bb3b8e44fa50a180be256b792e16d5f187e0ccdd"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.1.0/monkeys-linux-arm64.tar.gz"
+      sha256 "694aaa2a73d5cda1081c1533121504ed178d2e6e6b4b4be541c3f9616d63144f"
     end
     on_intel do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.0.1/monkeys-linux-x86_64.tar.gz"
-      sha256 "30f5d14e5abce84ea5b69cb00792a3e27c125085dd81d41ab706a2cfcc17eb3d"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.1.0/monkeys-linux-x86_64.tar.gz"
+      sha256 "9a0fabb571a125751cccdeda08a88fba72f611944554357691704ff468ddabba"
     end
   end
 
