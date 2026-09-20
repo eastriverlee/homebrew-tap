@@ -1,22 +1,22 @@
 class Monkeys < Formula
   desc "Cross-platform dotenv alternative for the LLM era: secrets in the keyring, spent one command at a time"
   homepage "https://github.com/eastriverlee/monkeys"
-  version "1.2.2"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.2/monkeys-macos-universal.tar.gz"
-    sha256 "4c40923ad62a4ea68a5d4dac012820ab52e13025c164d4e52e06972925d4fcb2"
+    url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-macos-universal.tar.gz"
+    sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.2/monkeys-linux-arm64.tar.gz"
-      sha256 "4c40923ad62a4ea68a5d4dac012820ab52e13025c164d4e52e06972925d4fcb2"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-arm64.tar.gz"
+      sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
     end
     on_intel do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.2/monkeys-linux-x86_64.tar.gz"
-      sha256 "4c40923ad62a4ea68a5d4dac012820ab52e13025c164d4e52e06972925d4fcb2"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-x86_64.tar.gz"
+      sha256 "f035848c8fe8f5be9da823d39b0f3aff9639e68e8065aa8f338bdef952a12b47"
     end
   end
 
