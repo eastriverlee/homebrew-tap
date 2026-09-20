@@ -1,5 +1,5 @@
 class Monkeys < Formula
-  desc "Cross-platform .env alternative for the LLM era"
+  desc ".env you can hand to an LLM, or git add"
   homepage "https://github.com/eastriverlee/monkeys"
   version "0.12.0"
   license "MIT"
