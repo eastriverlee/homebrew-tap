@@ -1,22 +1,22 @@
 class Monkeys < Formula
   desc ".env you can hand to an LLM, or git add"
   homepage "https://github.com/eastriverlee/monkeys"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.0/monkeys-macos-universal.tar.gz"
-    sha256 "d5462104fc070f291c36307e430caaf56be085a8bdb3de570ad710167ad66f61"
+    url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-macos-universal.tar.gz"
+    sha256 "803a313066d5bf456e43413b0e16dd570968f48d65708b2b9fdb6b825c14f456"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.0/monkeys-linux-arm64.tar.gz"
-      sha256 "43d83fb236c530e7f173a4ccab9606c53ff310e0d0d196dae83a557986df32da"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-arm64.tar.gz"
+      sha256 "e6d8397158db13cf50eb0fd6d95771580c85a78f3cc0e6945835f74ed83deb2f"
     end
     on_intel do
-      url "https://github.com/eastriverlee/monkeys/releases/download/v1.2.0/monkeys-linux-x86_64.tar.gz"
-      sha256 "09457adf37ad7fb8cfc13a49f36fdf76f72341995d5defd7723f68f0c88dc07e"
+      url "https://github.com/eastriverlee/monkeys/releases/download/v1.3.0/monkeys-linux-x86_64.tar.gz"
+      sha256 "f2f71ece22872fa695347ea51e881a24a099ff36c9adee9908e7d21568b55468"
     end
   end
 
